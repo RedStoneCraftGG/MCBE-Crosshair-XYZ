@@ -1,0 +1,30 @@
+{
+  "player_renderer": {
+    "anchor_from": "Bottom",
+    "anchor_to": "Bottom",
+    "layer": 10,
+    "renderer": "live_player_renderer",
+    "size": [
+      13,
+      13
+    ],
+    "offset": [
+      -0.5,
+      300
+    ],
+    "type": "custom"
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "cxyz@hud.player_renderer": {}
+          }
+        ]
+      }
+    ]
+  }
+}
