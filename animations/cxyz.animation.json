@@ -25,7 +25,7 @@
 					],
 					"rotation": [
 						0,
-						"query.camera_rotation(1)",
+						"-query.camera_rotation(1)",
 						0
 					], //"query.camera_rotation(1)" 0 for x, 1 for y
 					"scale": 1
